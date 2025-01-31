@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Coming soon!
+I will try as hard as possible to make it a reality!

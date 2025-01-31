@@ -8,13 +8,13 @@
 # Site Settings
 locale                   : "en-US"
 logo                     : "logo.jpg"
-title                    : "Qing Cong | Doris"
+title                    : "Yukai Zhou | Five"
 title_separator          : "-"
-name                     : &name "Qing Cong"
-description              : &description "PhD @ STA, CUHK"
-url                      : https://qcongdoris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yukai Zhou"
+description              : &description "BS @ ICS, NWPU"
+url                      : https://520activater.github.io/labixiaoxinboy.github.io #https://qcongdoris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "qcongdoris.github.io"
+repository               : "labixiaoxinboy.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -51,7 +51,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : googleaf71e2420f0c156d.html
+google_site_verification : googleaf71e2420f0c156d.html   #绑定了核查网站
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -81,9 +81,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Qing Cong | Doris"
+  name             : "Yukai Zhou | Five"
   avatar           : "profile.png"
-  bio              : "PhD @ STA, CUHK"
+  bio              : "BS @ ICS, NWPU"
   location         :  # "Location"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "qcongdoris"
+  github           : "520activater"
   google_plus      :
   keybase          :
   instagram        :
@@ -182,10 +182,10 @@ collections:
   resume:
     output: true
     permalink: /:collection/:path/
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  contact:
+#  teaching:
+#    output: true
+#    permalink: /:collection/:path/
+  contact:    ###################################################################
     output: true
     permalink: /:collection/:path/
 
@@ -210,15 +210,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+#  # _teaching
+#  - scope:
+#      path: ""
+#      type: teaching
+#    values:
+#      layout: single
+#      author_profile: true
+#      share: true
+#      comments: true
   # _about
   - scope:
       path: ""
@@ -237,10 +237,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _contact
+  # _contact            ########################################################
   - scope:
       path: ""
-      type: contact
+      type: contact    #########################################################
     values:
       layout: single
       author_profile: true
@@ -256,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: HongKong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: HongKong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones   #时区设置
 
 
 # Plugins
